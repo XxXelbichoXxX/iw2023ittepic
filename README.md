@@ -55,3 +55,5 @@ touch 2.txt
 git add .
 git commit -m  "añadiendo 2.txt"
 git push --set-upstream origin v0.2
+
+# merge directo
