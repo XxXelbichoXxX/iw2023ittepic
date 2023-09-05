@@ -41,3 +41,17 @@ git status
 git add .
 git commit -m "Subiendo gitignore y cambios"
 git push -u origin main
+
+# Crear una nueva rama
+git branch v0.2
+
+# Cambiar rama
+git checkout v0.2
+
+# Crear Archivo 
+touch 2.txt
+
+# Crear rama remota v0.2
+git add .
+git commit -m  "añadiendo 2.txt"
+git push --set-upstream origin v0.2
